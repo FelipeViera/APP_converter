@@ -27,6 +27,12 @@ Converter Dólar em Real (Não concluído)
 </li>
 </ol>
 
+<h2> Acesso ao Projeto </h2>
+<ol>
+<li>  Clone o repositório</li>
+<li> Abra a pasta dist e execute o arquivo </li>
+</ol>
+
 <h2>Técnicas e Tecnologias</h2>
 <ul>
 
