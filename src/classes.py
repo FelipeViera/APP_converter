@@ -15,6 +15,7 @@ class Converter():
             cotacoes = cotacoes.json()
             cotacao_dollar = cotacoes['USDBRL']["bid"]
             self.valor_convertido = round(self.valor / float(cotacao_dollar), 2)
+            
         except:
             print("errou")
 
