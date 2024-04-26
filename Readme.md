@@ -1,4 +1,4 @@
-<h1> APP de Conversão</h1>
+<h1> APP de Conversão Financeira </h1>
 
 
 <h2>Descrição</h2>
@@ -20,7 +20,7 @@ Em desenvolvimento...
 <ol>
 
 <li>
-Converter Real em Dólar. (Não concluído)
+Converter Real em Dólar.
 </li>
 <li>
 Converter Dólar em Real (Não concluído)
