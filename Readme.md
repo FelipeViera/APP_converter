@@ -4,8 +4,7 @@
 <h2>Descrição</h2>
 
 <p> 
-Esta aplicação corresponde a um conversor financeiro. De valores em real para outros
-tipos de moeda.
+Este aplicativo tem a finalidade de converter valores em R$ para as demais moedas do mundo globalizado com a cotação em tempo real.
 </p>
 
 <h2> Status do Projeto </h2>
