@@ -31,7 +31,8 @@ def main(pagina: ft.Page):
 
 
 
-    #Criando a caixa de texto
+    #Criando a caixa de texto 
+    #Alterei aqui
 
 
     botao_ok = ft.IconButton( ft.icons.REFRESH,on_click= enviar,height=100, width=100, icon_size=45)
