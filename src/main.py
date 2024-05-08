@@ -38,7 +38,7 @@ def converta():
 
 
 def exibir(conversor):
-   resultado = "U$ " + str(conversor.valor_convertido)
+   resultado = "US$ " + str(conversor.valor_convertido)
    texto.configure(text= resultado, )
 
 
@@ -51,7 +51,7 @@ caixa_texto.pack(padx=10, pady=10, )
 caixa_texto.place(relx=0.5, rely=0.4, anchor=customtkinter.CENTER)
 
 #Criando o texto onde vai constar o valor convertido
-texto = customtkinter.CTkLabel(janela, text="$0,00")
+texto = customtkinter.CTkLabel(janela, text="US$ 0.00")
 texto.pack(padx = 10, pady = 10)
 texto.place(relx=0.5, rely=0.6, anchor=customtkinter.CENTER)
 

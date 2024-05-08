@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43d27692-21db-4441-8095-4aec00bdb586" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/App_Converter.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/certifi/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/certifi/cacert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/customtkinter/assets/themes/blue.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/customtkinter/assets/themes/blue.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/customtkinter/assets/themes/dark-blue.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/customtkinter/assets/themes/dark-blue.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/customtkinter/assets/themes/green.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/customtkinter/assets/themes/green.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/urllib3/contrib/emscripten/emscripten_fetch_worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/urllib3/contrib/emscripten/emscripten_fetch_worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/urllib3/py.typed" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/urllib3/py.typed" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,9 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2gAEZUFsyxXW78gNTvfFgBFixeK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,7 +42,7 @@
   "keyToString": {
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "teste",
+    "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
