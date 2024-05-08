@@ -1,80 +1,64 @@
-
 from classes import Converter
-import flet as ft
-#pyinstaller --noconsole --icon=src/assets/moeda.ico src/main.py
-
-
-def main(pagina: ft.Page):
-
-    pagina.title = "Converter Moeda"
-
-    pagina.window_height = 550
-    pagina.window_min_height = 550
-    pagina.window_max_height = 550
-    pagina.window_min_width = 450
-    pagina.window_max_width = 450
-    pagina.window_width = 450
-    
-    pagina.vertical_alignment = ft.MainAxisAlignment.CENTER
-    pagina.bgcolor = "white"
-
-
-    def enviar(e):
-        valor = caixa_texto.value
-        valor = valor.replace(',','.')
-        valor = float(valor)
-        conversor = Converter(valor)
-        conversor.utilizando_cotacao()
-        resultado.value = "U$ " + str(conversor.valor_convertido)
-        resultado.color = "green"
-        pagina.update()
+import customtkinter
+import os
 
 
 
-    #Criando a caixa de texto
 
 
-    botao_ok = ft.IconButton( ft.icons.REFRESH,on_click= enviar,height=100, width=100, icon_size=45)
-    caixa_texto = ft.TextField(value="0", width=100, text_align= ft.TextAlign.CENTER, color="black")
-    descripe = ft.Text(value="Converta Real em Dólar", size=30, text_align= ft.TextAlign.CENTER, color="black")
-    texto = ft.Text(value="Digite aqui: ", size=25, text_align= ft.TextAlign.CENTER, color="black",)
-    resultado = ft.Text(value="U$ 0,00", size=35, text_align= ft.TextAlign.CENTER, color="black")
-    
-    pagina.add(
-        ft.Row([
-            ft.Container(
-                ft.Image(src="BR-USA.jpg", height=150, width=150, border_radius=60),
-                padding = 0,
-                margin = 0
-                
-            )
-        ], alignment=ft.MainAxisAlignment.CENTER),
-        ft.Row(
-            [ft.Container(
-                content = descripe   
+customtkinter.set_appearance_mode("dark")
+customtkinter.set_default_color_theme("dark-blue")
 
-            )], alignment=ft.MainAxisAlignment.CENTER),
-        ft.Row([
-            ft.Container(
-                content= texto,
-                margin =10
-            )
-        ], alignment=ft.MainAxisAlignment.CENTER),
-            
-        ft.Row([ft.Container(
-            content = caixa_texto,
-            margin = ft.margin.Margin(155, 0, 30, 0),
+janela = customtkinter.CTk()
+janela.geometry("550x450")
+janela.title("App Converter")
 
 
-        ), ft.Container(
-            content = botao_ok,
-
-        )
-          ], alignment=ft.MainAxisAlignment.CENTER),
-        
-        ft.Row([resultado], alignment=ft.MainAxisAlignment.CENTER)
-    )
-
-ft.app(target=main)
+icon_path = os.path.abspath("../src/assets/moeda.ico")
+janela.iconbitmap(icon_path)
 
 
+
+
+
+
+
+#funções
+
+
+
+
+def converta():
+   valor = str(caixa_texto.get())
+   valor = valor.replace(',','.')
+   valor = float(valor)
+   conversor = Converter(valor)
+   conversor.utilizando_cotacao()
+   exibir(conversor)
+
+
+def exibir(conversor):
+   resultado = "U$ " + str(conversor.valor_convertido)
+   texto.configure(text= resultado, )
+
+
+ 
+#Criando a caixa de input
+caixa_texto = customtkinter.CTkEntry(janela, placeholder_text="R$ 0,00")
+caixa_texto.pack(padx=10, pady=10, )
+
+#altera a posição do objeto
+caixa_texto.place(relx=0.5, rely=0.4, anchor=customtkinter.CENTER)
+
+#Criando o texto onde vai constar o valor convertido
+texto = customtkinter.CTkLabel(janela, text="$0,00")
+texto.pack(padx = 10, pady = 10)
+texto.place(relx=0.5, rely=0.6, anchor=customtkinter.CENTER)
+
+#botao
+
+button_us = customtkinter.CTkButton(janela, text="US$", command=converta)
+button_us.pack(padx = 10, pady= 10)
+button_us.place(relx=0.5, rely=0.5, anchor=customtkinter.CENTER)
+
+janela.mainloop()
