@@ -15,7 +15,7 @@
 <h2>:hammer: Funcionalidades do projeto</h2>
 
 <ol>
-<li> Colocar o valor em R$ e receber o resultado em U$.</li>
+<li> Colocar o valor em R$ e receber o resultado em US$.</li>
 </ol>
 
 
