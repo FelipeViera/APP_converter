@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d27692-21db-4441-8095-4aec00bdb586" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/build/App_Converter.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/certifi/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/certifi/cacert.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/customtkinter/assets/themes/blue.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/customtkinter/assets/themes/blue.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/customtkinter/assets/themes/dark-blue.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/customtkinter/assets/themes/dark-blue.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/customtkinter/assets/themes/green.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/customtkinter/assets/themes/green.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/urllib3/contrib/emscripten/emscripten_fetch_worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/urllib3/contrib/emscripten/emscripten_fetch_worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/urllib3/py.typed" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/urllib3/py.typed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="43d27692-21db-4441-8095-4aec00bdb586" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
