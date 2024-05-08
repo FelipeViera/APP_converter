@@ -1,6 +1,7 @@
 import requests
 import json
 
+
 class Converter():
     def __init__(self, valor):
         self.valor = valor
@@ -17,7 +18,7 @@ class Converter():
             self.valor_convertido = float(round(self.valor / float(cotacao_dollar), 2))
             
         except:
-            print("errou")
+            print("Erro de conexão")
 
 
 
