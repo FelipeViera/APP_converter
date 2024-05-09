@@ -14,6 +14,6 @@ executables = [
 setup(
     name='App_conveter',
     version='1.0',
-    description='Descrição do seu aplicativo',
+    description='App capaz de converter valores financeiros.',
     executables=executables
 )
