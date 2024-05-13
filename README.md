@@ -11,7 +11,7 @@
 <h2>Status do Projeto</h2>
 
 <p>
-  Em desenvolvimento...
+  Finalizado
 </p>
 
 <h2>:hammer: Funcionalidades do projeto</h2>
