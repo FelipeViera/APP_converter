@@ -25,7 +25,7 @@
 <h2>Acesso ao Projeto </h2>
 
 <p>
-  Clone o repositório e clique no arquivo App_Converter.exe que está na pasta build.
+  Clone o repositório e clique no arquivo Real_Converter.exe que está na pasta build.
 </p>
 
 <h2> Modo de uso: </h2>
